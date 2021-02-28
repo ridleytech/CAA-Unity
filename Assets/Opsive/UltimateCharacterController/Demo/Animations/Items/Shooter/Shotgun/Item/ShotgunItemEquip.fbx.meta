@@ -1,41 +1,104 @@
 fileFormatVersion: 2
 guid: d51c1dce42c7a3347b9a7e4507b0bafa
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Action
-    100002: Action_0
-    100004: BulletInsert
-    100006: Shotgun
-    100008: Shotgun_0
-    100010: //RootNode
-    100012: Trigger
-    100014: Trigger_0
-    100016: WeaponRig
-    100018: BulletInsert_0
-    400000: Action
-    400002: Action_0
-    400004: BulletInsert
-    400006: Shotgun
-    400008: Shotgun_0
-    400010: //RootNode
-    400012: Trigger
-    400014: Trigger_0
-    400016: WeaponRig
-    400018: BulletInsert_0
-    4300000: Trigger
-    4300002: Action
-    4300004: Shotgun
-    4300006: BulletInsert
-    7400000: ShotgunEquip
-    9500000: //RootNode
-    13700000: Action
-    13700002: Shotgun
-    13700004: Trigger
-    13700006: BulletInsert
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Action
+  - first:
+      1: 100002
+    second: Action_0
+  - first:
+      1: 100004
+    second: BulletInsert
+  - first:
+      1: 100006
+    second: Shotgun
+  - first:
+      1: 100008
+    second: Shotgun_0
+  - first:
+      1: 100010
+    second: //RootNode
+  - first:
+      1: 100012
+    second: Trigger
+  - first:
+      1: 100014
+    second: Trigger_0
+  - first:
+      1: 100016
+    second: WeaponRig
+  - first:
+      1: 100018
+    second: BulletInsert_0
+  - first:
+      4: 400000
+    second: Action
+  - first:
+      4: 400002
+    second: Action_0
+  - first:
+      4: 400004
+    second: BulletInsert
+  - first:
+      4: 400006
+    second: Shotgun
+  - first:
+      4: 400008
+    second: Shotgun_0
+  - first:
+      4: 400010
+    second: //RootNode
+  - first:
+      4: 400012
+    second: Trigger
+  - first:
+      4: 400014
+    second: Trigger_0
+  - first:
+      4: 400016
+    second: WeaponRig
+  - first:
+      4: 400018
+    second: BulletInsert_0
+  - first:
+      43: 4300000
+    second: Trigger
+  - first:
+      43: 4300002
+    second: Action
+  - first:
+      43: 4300004
+    second: Shotgun
+  - first:
+      43: 4300006
+    second: BulletInsert
+  - first:
+      74: 7400000
+    second: ShotgunEquip
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Action
+  - first:
+      137: 13700002
+    second: Shotgun
+  - first:
+      137: 13700004
+    second: Trigger
+  - first:
+      137: 13700006
+    second: BulletInsert
+  - first:
+      74: -6016166121577061743
+    second: ShotgunEquip2
   externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -62,8 +125,9 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: ShotgunEquip
-      takeName: ShotgunEquip
+      name: ShotgunEquip2
+      takeName: ShotgunEquip2
+      internalID: -6016166121577061743
       firstFrame: 0
       lastFrame: 35
       wrapMode: 0
@@ -76,7 +140,7 @@ ModelImporter:
       loopBlend: 0
       loopBlendOrientation: 1
       loopBlendPositionY: 1
-      loopBlendPositionXZ: 0
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 1
@@ -85,25 +149,7 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Action
-        weight: 1
-      - path: Shotgun
-        weight: 1
-      - path: Trigger
-        weight: 1
-      - path: WeaponRig
-        weight: 1
-      - path: WeaponRig/Shotgun_0
-        weight: 1
-      - path: WeaponRig/Shotgun_0/Action_0
-        weight: 1
-      - path: WeaponRig/Shotgun_0/BulletInsert
-        weight: 1
-      - path: WeaponRig/Shotgun_0/Trigger_0
-        weight: 1
+      transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
@@ -114,25 +160,28 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -141,10 +190,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 1
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -154,14 +203,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 100
     rootMotionBoneName: Shotgun_0
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 9043c1894b9c72b4684d63d3fd679c18,
     type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 2
   additionalBone: 0
   userData: 
   assetBundleName: 
