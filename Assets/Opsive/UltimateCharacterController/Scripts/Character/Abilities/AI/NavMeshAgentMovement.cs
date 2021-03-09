@@ -126,10 +126,7 @@ namespace Opsive.UltimateCharacterController.Character.Abilities.AI
                 updateInput = false;
             }
 
-
-
-            //if (updateInput) {
-            if (updateInput && m_NavMeshAgent.hasPath && !m_NavMeshAgent.isStopped) {
+            if (updateInput) {
                 var direction = (m_NavMeshAgent.pathPending || m_NavMeshAgent.desiredVelocity.sqrMagnitude < 0.01f) ? m_NavMeshAgent.velocity : m_NavMeshAgent.desiredVelocity;
                 // Only move if a path exists.
                 if (m_NavMeshAgent.remainingDistance > 0.01f) {

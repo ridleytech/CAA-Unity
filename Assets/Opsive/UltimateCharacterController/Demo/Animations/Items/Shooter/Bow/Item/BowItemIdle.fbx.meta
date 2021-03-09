@@ -1,215 +1,80 @@
 fileFormatVersion: 2
 guid: 4c551c689dd234b41a3db2a370b6d987
+timeCreated: 1516573448
+licenseType: Pro
 ModelImporter:
-  serializedVersion: 19301
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: Bottom_Bone
-  - first:
-      1: 100002
-    second: Bottom_Bone1
-  - first:
-      1: 100004
-    second: Bottom_Bone2
-  - first:
-      1: 100006
-    second: Bottom_Bone3
-  - first:
-      1: 100008
-    second: Bottom_Bone4
-  - first:
-      1: 100010
-    second: Bottom_Bone5
-  - first:
-      1: 100012
-    second: Bottom_Bone6
-  - first:
-      1: 100014
-    second: Bottom_Bone7
-  - first:
-      1: 100016
-    second: Bottom_Bone8
-  - first:
-      1: 100018
-    second: Bottom_Bone9
-  - first:
-      1: 100020
-    second: Bottom_IK
-  - first:
-      1: 100022
-    second: Bottom_Limit
-  - first:
-      1: 100024
-    second: Bottom_Rotation
-  - first:
-      1: 100026
-    second: Bow
-  - first:
-      1: 100028
-    second: BowArmature
-  - first:
-      1: 100030
-    second: //RootNode
-  - first:
-      1: 100032
-    second: Main
-  - first:
-      1: 100034
-    second: String
-  - first:
-      1: 100036
-    second: Top_Bone
-  - first:
-      1: 100038
-    second: Top_Bone1
-  - first:
-      1: 100040
-    second: Top_Bone2
-  - first:
-      1: 100042
-    second: Top_Bone3
-  - first:
-      1: 100044
-    second: Top_Bone4
-  - first:
-      1: 100046
-    second: Top_Bone5
-  - first:
-      1: 100048
-    second: Top_Bone6
-  - first:
-      1: 100050
-    second: Top_Bone7
-  - first:
-      1: 100052
-    second: Top_Bone8
-  - first:
-      1: 100054
-    second: Top_Bone9
-  - first:
-      1: 100056
-    second: Top_IK
-  - first:
-      1: 100058
-    second: Top_Limit
-  - first:
-      1: 100060
-    second: Top_Rotation
-  - first:
-      4: 400000
-    second: Bottom_Bone
-  - first:
-      4: 400002
-    second: Bottom_Bone1
-  - first:
-      4: 400004
-    second: Bottom_Bone2
-  - first:
-      4: 400006
-    second: Bottom_Bone3
-  - first:
-      4: 400008
-    second: Bottom_Bone4
-  - first:
-      4: 400010
-    second: Bottom_Bone5
-  - first:
-      4: 400012
-    second: Bottom_Bone6
-  - first:
-      4: 400014
-    second: Bottom_Bone7
-  - first:
-      4: 400016
-    second: Bottom_Bone8
-  - first:
-      4: 400018
-    second: Bottom_Bone9
-  - first:
-      4: 400020
-    second: Bottom_IK
-  - first:
-      4: 400022
-    second: Bottom_Limit
-  - first:
-      4: 400024
-    second: Bottom_Rotation
-  - first:
-      4: 400026
-    second: Bow
-  - first:
-      4: 400028
-    second: BowArmature
-  - first:
-      4: 400030
-    second: //RootNode
-  - first:
-      4: 400032
-    second: Main
-  - first:
-      4: 400034
-    second: String
-  - first:
-      4: 400036
-    second: Top_Bone
-  - first:
-      4: 400038
-    second: Top_Bone1
-  - first:
-      4: 400040
-    second: Top_Bone2
-  - first:
-      4: 400042
-    second: Top_Bone3
-  - first:
-      4: 400044
-    second: Top_Bone4
-  - first:
-      4: 400046
-    second: Top_Bone5
-  - first:
-      4: 400048
-    second: Top_Bone6
-  - first:
-      4: 400050
-    second: Top_Bone7
-  - first:
-      4: 400052
-    second: Top_Bone8
-  - first:
-      4: 400054
-    second: Top_Bone9
-  - first:
-      4: 400056
-    second: Top_IK
-  - first:
-      4: 400058
-    second: Top_Limit
-  - first:
-      4: 400060
-    second: Top_Rotation
-  - first:
-      43: 4300000
-    second: Bow
-  - first:
-      74: 7400000
-    second: BowItemIdle
-  - first:
-      95: 9500000
-    second: //RootNode
-  - first:
-      137: 13700000
-    second: Bow
-  - first:
-      74: -3100369314251171874
-    second: Idle
-  externalObjects: {}
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bottom_Bone
+    100002: Bottom_Bone1
+    100004: Bottom_Bone2
+    100006: Bottom_Bone3
+    100008: Bottom_Bone4
+    100010: Bottom_Bone5
+    100012: Bottom_Bone6
+    100014: Bottom_Bone7
+    100016: Bottom_Bone8
+    100018: Bottom_Bone9
+    100020: Bottom_IK
+    100022: Bottom_Limit
+    100024: Bottom_Rotation
+    100026: Bow
+    100028: BowArmature
+    100030: //RootNode
+    100032: Main
+    100034: String
+    100036: Top_Bone
+    100038: Top_Bone1
+    100040: Top_Bone2
+    100042: Top_Bone3
+    100044: Top_Bone4
+    100046: Top_Bone5
+    100048: Top_Bone6
+    100050: Top_Bone7
+    100052: Top_Bone8
+    100054: Top_Bone9
+    100056: Top_IK
+    100058: Top_Limit
+    100060: Top_Rotation
+    400000: Bottom_Bone
+    400002: Bottom_Bone1
+    400004: Bottom_Bone2
+    400006: Bottom_Bone3
+    400008: Bottom_Bone4
+    400010: Bottom_Bone5
+    400012: Bottom_Bone6
+    400014: Bottom_Bone7
+    400016: Bottom_Bone8
+    400018: Bottom_Bone9
+    400020: Bottom_IK
+    400022: Bottom_Limit
+    400024: Bottom_Rotation
+    400026: Bow
+    400028: BowArmature
+    400030: //RootNode
+    400032: Main
+    400034: String
+    400036: Top_Bone
+    400038: Top_Bone1
+    400040: Top_Bone2
+    400042: Top_Bone3
+    400044: Top_Bone4
+    400046: Top_Bone5
+    400048: Top_Bone6
+    400050: Top_Bone7
+    400052: Top_Bone8
+    400054: Top_Bone9
+    400056: Top_IK
+    400058: Top_Limit
+    400060: Top_Rotation
+    4300000: Bow
+    7400000: BowItemIdle
+    9500000: //RootNode
+    13700000: Bow
   materials:
-    materialImportMode: 0
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -222,21 +87,17 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Idle
+      name: BowItemIdle
       takeName: Idle
-      internalID: -3100369314251171874
-      firstFrame: -1
+      firstFrame: 0
       lastFrame: 2
       wrapMode: 0
       orientationOffsetY: 0
@@ -244,20 +105,82 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 1
-      loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 1
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
       keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
+      keepOriginalPositionXZ: 0
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bow
+        weight: 1
+      - path: BowArmature
+        weight: 1
+      - path: BowArmature/Main
+        weight: 1
+      - path: BowArmature/Main/Bottom_Bone
+        weight: 1
+      - path: BowArmature/Main/Bottom_Bone/Bottom_Bone1
+        weight: 1
+      - path: BowArmature/Main/Bottom_Bone/Bottom_Bone1/Bottom_Bone2
+        weight: 1
+      - path: BowArmature/Main/Bottom_Bone/Bottom_Bone1/Bottom_Bone2/Bottom_Bone3
+        weight: 1
+      - path: BowArmature/Main/Bottom_Bone/Bottom_Bone1/Bottom_Bone2/Bottom_Bone3/Bottom_Bone4
+        weight: 1
+      - path: BowArmature/Main/Bottom_Bone/Bottom_Bone1/Bottom_Bone2/Bottom_Bone3/Bottom_Bone4/Bottom_Bone5
+        weight: 1
+      - path: BowArmature/Main/Bottom_Bone/Bottom_Bone1/Bottom_Bone2/Bottom_Bone3/Bottom_Bone4/Bottom_Bone5/Bottom_Bone6
+        weight: 1
+      - path: BowArmature/Main/Bottom_Bone/Bottom_Bone1/Bottom_Bone2/Bottom_Bone3/Bottom_Bone4/Bottom_Bone5/Bottom_Bone6/Bottom_Bone7
+        weight: 1
+      - path: BowArmature/Main/Bottom_Bone/Bottom_Bone1/Bottom_Bone2/Bottom_Bone3/Bottom_Bone4/Bottom_Bone5/Bottom_Bone6/Bottom_Bone7/Bottom_Bone8
+        weight: 1
+      - path: BowArmature/Main/Bottom_Bone/Bottom_Bone1/Bottom_Bone2/Bottom_Bone3/Bottom_Bone4/Bottom_Bone5/Bottom_Bone6/Bottom_Bone7/Bottom_Bone8/Bottom_Bone9
+        weight: 1
+      - path: BowArmature/Main/Bottom_Limit
+        weight: 1
+      - path: BowArmature/Main/Bottom_Rotation
+        weight: 1
+      - path: BowArmature/Main/Bottom_Rotation/Bottom_IK
+        weight: 1
+      - path: BowArmature/Main/String
+        weight: 1
+      - path: BowArmature/Main/Top_Bone
+        weight: 1
+      - path: BowArmature/Main/Top_Bone/Top_Bone1
+        weight: 1
+      - path: BowArmature/Main/Top_Bone/Top_Bone1/Top_Bone2
+        weight: 1
+      - path: BowArmature/Main/Top_Bone/Top_Bone1/Top_Bone2/Top_Bone3
+        weight: 1
+      - path: BowArmature/Main/Top_Bone/Top_Bone1/Top_Bone2/Top_Bone3/Top_Bone4
+        weight: 1
+      - path: BowArmature/Main/Top_Bone/Top_Bone1/Top_Bone2/Top_Bone3/Top_Bone4/Top_Bone5
+        weight: 1
+      - path: BowArmature/Main/Top_Bone/Top_Bone1/Top_Bone2/Top_Bone3/Top_Bone4/Top_Bone5/Top_Bone6
+        weight: 1
+      - path: BowArmature/Main/Top_Bone/Top_Bone1/Top_Bone2/Top_Bone3/Top_Bone4/Top_Bone5/Top_Bone6/Top_Bone7
+        weight: 1
+      - path: BowArmature/Main/Top_Bone/Top_Bone1/Top_Bone2/Top_Bone3/Top_Bone4/Top_Bone5/Top_Bone6/Top_Bone7/Top_Bone8
+        weight: 1
+      - path: BowArmature/Main/Top_Bone/Top_Bone1/Top_Bone2/Top_Bone3/Top_Bone4/Top_Bone5/Top_Bone6/Top_Bone7/Top_Bone8/Top_Bone9
+        weight: 1
+      - path: BowArmature/Main/Top_Limit
+        weight: 1
+      - path: BowArmature/Main/Top_Rotation
+        weight: 1
+      - path: BowArmature/Main/Top_Rotation/Top_IK
+        weight: 1
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
@@ -267,24 +190,13 @@ ModelImporter:
     globalScale: 100
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -294,14 +206,10 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 1
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -311,17 +219,15 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 100
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 2073b67b18a7cf447a5d0f80c1531cba,
     type: 3}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 2
   additionalBone: 0
   userData: 
   assetBundleName: 

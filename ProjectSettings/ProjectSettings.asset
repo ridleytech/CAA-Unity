@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 20
-  productGUID: f618efd35fda64fa4a68d19902f35663
+  productGUID: 8ee4eb50dbc694b76b5ab0de37339c2c
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: CAA
+  productName: CAA2
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -583,7 +583,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLWasmStreaming: 0
   scriptingDefineSymbols:
-    1: AutoSetupForUnity;FIRST_PERSON_CONTROLLER;THIRD_PERSON_CONTROLLER;ULTIMATE_CHARACTER_CONTROLLER_SHOOTER;FIRST_PERSON_SHOOTER;ULTIMATE_CHARACTER_CONTROLLER_MELEE;FIRST_PERSON_MELEE;ULTIMATE_CHARACTER_CONTROLLER_UNIVERSALRP
+    1: FIRST_PERSON_CONTROLLER;THIRD_PERSON_CONTROLLER;ULTIMATE_CHARACTER_CONTROLLER_SHOOTER;FIRST_PERSON_SHOOTER;ULTIMATE_CHARACTER_CONTROLLER_MELEE;FIRST_PERSON_MELEE;ULTIMATE_CHARACTER_CONTROLLER_UNIVERSALRP
   platformArchitecture: {}
   scriptingBackend:
     Standalone: 1

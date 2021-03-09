@@ -1,44 +1,21 @@
 fileFormatVersion: 2
 guid: 8a818feec9078754d8fa152d114510e4
 ModelImporter:
-  serializedVersion: 19301
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: Door
-  - first:
-      1: 100002
-    second: Root
-  - first:
-      1: 100004
-    second: SteeringWheel
-  - first:
-      1: 100006
-    second: //RootNode
-  - first:
-      4: 400000
-    second: Door
-  - first:
-      4: 400002
-    second: Root
-  - first:
-      4: 400004
-    second: SteeringWheel
-  - first:
-      4: 400006
-    second: //RootNode
-  - first:
-      74: 7400000
-    second: TurnRight
-  - first:
-      95: 9500000
-    second: //RootNode
-  - first:
-      74: -623603649343465320
-    second: Scene
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Door
+    100002: Root
+    100004: SteeringWheel
+    100006: //RootNode
+    400000: Door
+    400002: Root
+    400004: SteeringWheel
+    400006: //RootNode
+    7400000: TurnRight
+    9500000: //RootNode
   externalObjects: {}
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -65,9 +42,8 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Scene
+      name: TurnRight
       takeName: Scene
-      internalID: -623603649343465320
       firstFrame: 1
       lastFrame: 31
       wrapMode: 0
@@ -78,12 +54,12 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
-      loopBlendOrientation: 1
-      loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
-      keepOriginalOrientation: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
       keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
+      keepOriginalPositionXZ: 0
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
@@ -100,28 +76,25 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -130,10 +103,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 1
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -143,17 +116,14 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: Root
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 85db33ff7e2809c4ebf784db2c7ad2b0,
     type: 3}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 2
   additionalBone: 0
   userData: 
   assetBundleName: 

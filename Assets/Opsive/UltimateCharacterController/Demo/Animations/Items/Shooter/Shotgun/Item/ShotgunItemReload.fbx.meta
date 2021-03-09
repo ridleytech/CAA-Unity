@@ -1,107 +1,44 @@
 fileFormatVersion: 2
 guid: cb5d3716d13de6e49b78df5dfbfcef39
+timeCreated: 1528048455
+licenseType: Pro
 ModelImporter:
-  serializedVersion: 19301
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: Action
-  - first:
-      1: 100002
-    second: Action_0
-  - first:
-      1: 100004
-    second: BulletInsert
-  - first:
-      1: 100006
-    second: BulletInsert_0
-  - first:
-      1: 100008
-    second: Shotgun
-  - first:
-      1: 100010
-    second: Shotgun_0
-  - first:
-      1: 100012
-    second: //RootNode
-  - first:
-      1: 100014
-    second: Trigger
-  - first:
-      1: 100016
-    second: Trigger_0
-  - first:
-      1: 100018
-    second: WeaponRig
-  - first:
-      4: 400000
-    second: Action
-  - first:
-      4: 400002
-    second: Action_0
-  - first:
-      4: 400004
-    second: BulletInsert
-  - first:
-      4: 400006
-    second: BulletInsert_0
-  - first:
-      4: 400008
-    second: Shotgun
-  - first:
-      4: 400010
-    second: Shotgun_0
-  - first:
-      4: 400012
-    second: //RootNode
-  - first:
-      4: 400014
-    second: Trigger
-  - first:
-      4: 400016
-    second: Trigger_0
-  - first:
-      4: 400018
-    second: WeaponRig
-  - first:
-      43: 4300000
-    second: BulletInsert
-  - first:
-      43: 4300002
-    second: Action
-  - first:
-      43: 4300004
-    second: Trigger
-  - first:
-      43: 4300006
-    second: Shotgun
-  - first:
-      74: 7400000
-    second: ShotgunItemReloadLoop
-  - first:
-      74: 7400002
-    second: ShotgunItemReloadComplete
-  - first:
-      95: 9500000
-    second: //RootNode
-  - first:
-      137: 13700000
-    second: Action
-  - first:
-      137: 13700002
-    second: BulletInsert
-  - first:
-      137: 13700004
-    second: Shotgun
-  - first:
-      137: 13700006
-    second: Trigger
-  - first:
-      74: -7917399040393092254
-    second: ShotgunReload
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Action
+    100002: Action_0
+    100004: BulletInsert
+    100006: BulletInsert_0
+    100008: Shotgun
+    100010: Shotgun_0
+    100012: //RootNode
+    100014: Trigger
+    100016: Trigger_0
+    100018: WeaponRig
+    400000: Action
+    400002: Action_0
+    400004: BulletInsert
+    400006: BulletInsert_0
+    400008: Shotgun
+    400010: Shotgun_0
+    400012: //RootNode
+    400014: Trigger
+    400016: Trigger_0
+    400018: WeaponRig
+    4300000: BulletInsert
+    4300002: Action
+    4300004: Trigger
+    4300006: Shotgun
+    7400000: ShotgunItemReloadLoop
+    7400002: ShotgunItemReloadComplete
+    9500000: //RootNode
+    13700000: Action
+    13700002: BulletInsert
+    13700004: Shotgun
+    13700006: Trigger
   externalObjects: {}
   materials:
-    materialImportMode: 0
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -118,7 +55,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 0
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -128,11 +64,58 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: ShotgunReload
+      name: ShotgunItemReloadLoop
       takeName: ShotgunReload
-      internalID: -7917399040393092254
-      firstFrame: 0
-      lastFrame: 59
+      firstFrame: 6
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Action
+        weight: 1
+      - path: BulletInsert
+        weight: 1
+      - path: Shotgun
+        weight: 1
+      - path: Trigger
+        weight: 1
+      - path: WeaponRig
+        weight: 1
+      - path: WeaponRig/Shotgun_0
+        weight: 1
+      - path: WeaponRig/Shotgun_0/Action_0
+        weight: 1
+      - path: WeaponRig/Shotgun_0/BulletInsert_0
+        weight: 1
+      - path: WeaponRig/Shotgun_0/Trigger_0
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ShotgunItemReloadComplete
+      takeName: ShotgunReload
+      firstFrame: 35
+      lastFrame: 52
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -143,7 +126,7 @@ ModelImporter:
       loopBlend: 0
       loopBlendOrientation: 1
       loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
+      loopBlendPositionXZ: 0
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 1
@@ -152,7 +135,27 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Action
+        weight: 1
+      - path: BulletInsert
+        weight: 1
+      - path: Shotgun
+        weight: 1
+      - path: Trigger
+        weight: 1
+      - path: WeaponRig
+        weight: 1
+      - path: WeaponRig/Shotgun_0
+        weight: 1
+      - path: WeaponRig/Shotgun_0/Action_0
+        weight: 1
+      - path: WeaponRig/Shotgun_0/BulletInsert_0
+        weight: 1
+      - path: WeaponRig/Shotgun_0/Trigger_0
+        weight: 1
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
@@ -162,23 +165,17 @@ ModelImporter:
     globalScale: 100
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -190,13 +187,10 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -206,16 +200,14 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 100
     rootMotionBoneName: Shotgun_0
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
