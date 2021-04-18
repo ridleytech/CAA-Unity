@@ -7,6 +7,8 @@ public class AnimationManager : MonoBehaviour
     public GameObject unequippedAx;
     public GameObject equippedAx;
     public Animator anim;
+    public Rigidbody rb;
+    public Collider ec;
 
     // Start is called before the first frame update
     void Start()
@@ -21,10 +23,14 @@ public class AnimationManager : MonoBehaviour
         equippedAx.SetActive(true);
     }
 
+    void WeaponEquipped () {
+
+        ec.enabled = true;
+    }
+
     // Update is called once per frame
     void Update()
     {
-
         float h = Input.GetAxis("Horizontal");
 
         //print("h: "+h);
@@ -39,6 +45,5 @@ public class AnimationManager : MonoBehaviour
         }
 
         anim.SetFloat("horizontal",h);
-        
     }
 }
