@@ -49,4 +49,4 @@
 *.Zprj filter=lfs diff=lfs merge=lfs -text
 *.fbxkey filter=lfs diff=lfs merge=lfs -text
 #Substance
-*.sbsar
+*.sbsar filter=lfs diff=lfs merge=lfs -text
